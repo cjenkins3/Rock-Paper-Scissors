@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #292C34;
+}
+header {
+    background: white;
+    padding: 20px;
+}
+header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: Pacifico;
+}
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Pacifico;
+    position: relative;
+}
+.badge {
+    background: #e2584d;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Pacifico;
+}
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+.result {
+    font-size: 40px;
+    color: white;
+}
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Pacifico;
+}
+.choices {
+    text-align: center;
+    margin-top: 50px
+}
+.choice {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+.choice:hover {
+    cursor: pointer;
+    background: green;
+}
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Pacifico;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
