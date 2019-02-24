@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 
 * {
     padding: 0;
@@ -15,7 +15,7 @@ header {
 header > h1 {
     color: #25272E;
     text-align: center;
-    font-family: Pacifico;
+    font-family: 'Bree Serif', serif;
 }
 .score-board {
     margin: 20px auto;
@@ -34,17 +34,19 @@ header > h1 {
     color: white;
     font-size: 14px;
     padding: 2px 10px;
-    font-family: Pacifico;
+    font-family: 'Bree Serif', serif;
 }
 #user-label {
     position: absolute;
     top: 30px;
     left: -25px;
+    font-size: 12pt;
 }
 #computer-label {
     position: absolute;
     top: 30px;
     right: -25px;
+    font-size: 12pt;
 }
 .result {
     font-size: 40px;
@@ -53,7 +55,7 @@ header > h1 {
 .result > p {
     text-align: center;
     font-weight: bold;
-    font-family: Pacifico;
+    font-family: 'Bree Serif', serif;
 }
 .choices {
     text-align: center;
@@ -72,7 +74,7 @@ header > h1 {
 #action-message {
     text-align: center;
     color: white;
-    font-family: Pacifico;
+    font-family: 'Bree Serif', serif;
     font-weight: bold;
     font-size: 30px;
     margin-top: 20px;
