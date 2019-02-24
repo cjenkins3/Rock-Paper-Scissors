@@ -1,3 +1,4 @@
+
 var userScore = 0;
 var computerScore = 0;
 //dom variables -- in span tags (html)
